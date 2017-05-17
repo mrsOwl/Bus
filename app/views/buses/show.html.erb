@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @bus.number %>
+</p>
+
+<p>
+  <strong>tickets_places:</strong>
+  <%= @bus.tickets_places %>
+</p>
+
+<p>
+  <strong>Bus station:</strong>
+  <%= @bus.bus_station %>
+</p>
+
+<p>
+  <strong>Bus time start:</strong>
+  <%= @bus.bus_time_start %>
+</p>
+
+<p>
+  <strong>Bus time stop:</strong>
+  <%= @bus.bus_time_stop %>
+</p>
+
+<%= link_to 'Edit', edit_bus_path(@bus) %> |
+<%= link_to 'Back', buses_path %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @ticket.code %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @ticket.bus.number %>
+</p>
+
+<p>
+  <strong>Bus station:</strong>
+  <%= @ticket.bus.bus_station %>
+</p>
+
+<p>
+  <strong>Bus time start:</strong>
+  <%= @ticket.bus.bus_time_start %>
+</p>
+
+<p>
+  <strong>Bus time stop:</strong>
+  <%= @ticket.bus.bus_time_stop %>
+</p>
+
+
+<%= link_to 'Back', buses_path %>
